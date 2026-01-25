@@ -58,3 +58,28 @@ Unlike standard federated learning, our architecture assumes any node can lie.
 
 ## **4. Strategic Impact**
 Successful completion delivers a **flight-ready reference architecture** for the **Mars Transit Vehicle (MTV)** medical bay. It provides the "Digital Immune System" required to trust an AI with astronaut lives when Earth is 20 light-minutes away.
+
+---
+
+## Appendix A: Technology Readiness Level (TRL) Advancement Roadmap
+
+**System:** Spacenaut Companion (Mesh-Neuron / SASC / KARNAK Stack)
+**Current Status:** TRL 4 (Component Validation in Lab Environment)
+**Target Status (End of Grant):** TRL 6 (System Validation in Relevant Environment)
+
+### TRL 4: Component Validation (Current State - Pre-Award)
+- **Fault Tolerance:** FIM v1.0 successfully corrupts weights in simulation; BAP-DD v1.1 converges in <1s.
+- **Diagnostics:** VajraPsych achieves 82% accuracy on retrospective ICU datasets.
+- **Governance:** SASC logic formally verified for deadlock freedom.
+
+### TRL 5: Component Validation in Relevant Environment (Month 6 - Antarctica Prep)
+- **Milestone:** "The Digital Twin Validation"
+- **Success Criteria:** Mesh-Neuron cluster maintains consensus with 40-minute delays; system detects 95% of FIM-injected faults; SASC Hard Freeze triggers correctly on replayed "crisis" datasets.
+
+### TRL 6: System/Subsystem Validation in Relevant Environment (Month 12 - Mission End)
+- **Milestone:** "Operation SPACENAUT: 12-Week Winter-Over"
+- **Success Criteria:** Full stack operating autonomously for >2,000 hours in Antarctica; 100% containment of FIM Classes A-D; Crew trust >80%; KARNAK archive fully recoverable after 50% corruption.
+
+### TRL 7-9: Future Infusion
+- **TRL 7 (2028):** Lunar Gateway / ISS Tech Demo.
+- **TRL 8-9 (2033):** Mars Transit Vehicle (MTV) Integration.
